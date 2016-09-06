@@ -1,0 +1,34 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Cari Paket Wisata</h1>
+    <div class="buttons">
+      <button class="button button-positive" ng-click="closeLogin()">X</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+ 
+   <div class="list padding">
+    <div class="form">
+        <label>Check In :</label>
+        <input  class="filter-date" type="date"   ng-pattern="date"></input>
+        </div>
+         <label>Check Out:</label>
+        <ion-md-input  type="date"></ion-md-input>
+
+        <ion-md-input placeholder="Available Budget"  type="text"></ion-md-input><br>
+
+        </div>
+        </div>
+        <div class = "row center">
+        <div class="col text-right">
+             <button class="button button-positive button-right">CARI <i class="icon ion-ios7-search"></i></button>
+        </div>
+      </div>
+    
+        <div class="button-bar social-login">
+            <button class="button button-small button-border icon-left ion-social-google button-assertive-900">Google+</button>
+            <button class="button button-small button-border icon-left ion-social-twitter button-calm-900">Twitter</button>
+            <button class="button button-small button-border icon-left ion-social-facebook button-positive-900">Facebook</button>
+        </div>
+  </ion-content>
+</ion-modal-view>
